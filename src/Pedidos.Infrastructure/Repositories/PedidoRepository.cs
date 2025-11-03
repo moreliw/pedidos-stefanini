@@ -42,7 +42,6 @@ public class PedidoRepository : IPedidoRepository
         return await _db.Pedidos
             .Include(p => p.ItensPedido)
             .ThenInclude(i => i.Produto)
-            .AsNoTracking()
             .FirstOrDefaultAsync(x => x.Id == id, ct);
     }
 
