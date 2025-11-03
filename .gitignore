@@ -1,0 +1,31 @@
+# Compiled binaries and obj
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/TestResults/
+
+# Visual Studio / JetBrains Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node / frontend (if any)
+node_modules/
+
+# Artifacts and environment
+.artifacts/
+.env
+
+# Misc
+/.publish/
